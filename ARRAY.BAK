@@ -1,0 +1,22 @@
+#include<stdio5.h>
+#include<conio.h>
+void main()
+{
+ int a[5],i,tot=0;
+ float per;
+ clrscr();
+ for(i=0; i<5; i++)
+ {
+  printf("enter number :");
+  scanf("%d",a[i]);
+  }
+  for(i=0; i<5; i++)
+  {
+   tot=tot+a[i];
+   }
+  per=tot/5;
+  printf("tot=%d",tot);
+  printf("\nper=%d",per);
+  printf("\n%d",a[0]);
+  getch();
+  }
